@@ -40,11 +40,11 @@ path to the directory where the slides are located.
 
 For an mrxs file the sample sheet will look something like this:
 
-test_mrxs      H&E       basename.mrxs       /path/to/mrxs/basename.mrxs        /path/to/mrxs/basename/
+test_mrxs,      H&E,       basename.mrxs,       /path/to/mrxs/basename.mrxs,        /path/to/mrxs/basename/
 
 For other files the sample sheet will look something like this:
 
-test_svs       H&E       basename.svs       /path/to/svs/basename.svs        /path/to/svs/
+test_svs,       H&E,       basename.svs,       /path/to/svs/basename.svs,        /path/to/svs/
 
 You will also need to download the hovernet model available [here](https://drive.google.com/file/d/1SbSArI3KOOWHxRlxnjchO7_MbWzB4lNR/view)
 
