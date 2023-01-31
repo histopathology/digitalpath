@@ -30,6 +30,13 @@ conda create --name nextflow
 conda install -c bioconda nextflow
 ```
 
+Once nextflow has been installed, make sure to update to the latest version:
+
+```
+nextflow self-update
+```
+
+
 This installation command assumes that you have Nvidia docker and CUDA [installed](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 
 # Preparation
