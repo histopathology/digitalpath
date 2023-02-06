@@ -3,7 +3,6 @@ process HOVERNET {
 
     label (params.GPU == "ON" ? 'with_gpus': 'with_cpus')
 
-    conda "conda-forge::python=3.8.3"
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
         'docker://canqx/hovernet:v5' :
         'canqx/hovernet:v5' }"
