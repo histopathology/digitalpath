@@ -18,9 +18,9 @@ Nuclei segmentation using Hovernet
 To install the necessary dependencies, the use of anaconda is highly recommended.
 The only necessary dependencies to run this pipeline are:
 
-Nextflow
-Docker
-CUDA drivers for GPU support
+Nextflow,
+Docker,
+CUDA drivers for GPU support,
 Nvidia Docker
 
 Using conda, these tools can be installed as follows:
